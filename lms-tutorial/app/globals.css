@@ -91,6 +91,14 @@ body,
   }
 }
 
+ /* dạ custom trong này giúp em, làm đ' gì có class border--border trong tailwind mấy ba */
+@layer utilities {
+    .border--border {
+      @apply border;
+      border-color: black;
+    }
+  }
+
 .ql-container {
   font-size: 16px;
 }
