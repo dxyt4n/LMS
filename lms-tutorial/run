@@ -1,0 +1,25 @@
+Environment variables loaded from .env
+Prisma schema loaded from prisma\schema.prisma
+Datasource "db": PostgreSQL database "mydb", schema "public" at "localhost:5432"
+
+Applying migration `20250119090209_init`
+Applying migration `20250214154044_make_url_optional`
+
+The following migration(s) have been applied:
+
+migrations/
+  └─ 20250119090209_init/
+    └─ migration.sql
+  └─ 20250214154044_make_url_optional/
+    └─ migration.sql
+
+Your database is now in sync with your schema.
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[GEPERM: operation not permitted, rename 'C:\Users\hiiam\Documents\WDP301\lms-tuto
+rial\node_modules\.prisma\client\query_engine-windows.dll.node.tmp18852' -> 
+'C:\Users\hiiam\Documents\WDP301\lms-tutorial\node_modules\.prisma\client\query_
+engine-windows.dll.node'
+
+
